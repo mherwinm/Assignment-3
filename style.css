@@ -1,0 +1,122 @@
+body {
+    background-color: #e6e6e6;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #10c578;
+    margin: -20px;
+}
+
+@font-face {
+    font-family: Kaushan;
+    src: url(KaushanScript-Regular.otf);
+}
+
+.page-title {
+    font-family: Kaushan;
+    color: white;
+    Font-size: 24px;
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.navbar {
+    display: inline-block;
+    margin-left: 300px;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.container {
+    width: 55%;
+}
+
+.article { 
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-top: 5px solid #10c578;
+    border-bottom: 5px solid #cccccc;
+    padding: 30px;
+}
+
+.content-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content-desc {
+    display: inline-block;
+}
+
+.content-desc a {
+    color: orange;
+}
+
+.main-content {
+    font-size: 15px;
+    color: grey;
+    display: flex;
+}
+
+
+.main-content img {
+    padding-top: 20px;
+    width: 320px ;
+    height: 200px;
+}
+
+.main-content p {
+    padding-left: 30px;
+}
+
+.read-more {
+    margin-left: 670px;
+}
+
+.read-more a {
+    font-size: 18px;
+    color: orange;
+}
+
+
+/*BREAK for SIDEBAR*/
+.sidebar-container {
+    padding: 30px;
+    width: 30%;
+}
+
+.searchbox {
+    margin-top: 12px;
+}
+
+.searchbox input {
+    height: 30px;
+    width: 300px;
+}
+
+.side-content {
+    display: flex;
+}
+
+.side-content img {
+    padding-top: 20px;
+    width: 100px ;
+    height: 100px;
+}
+
+.side-content p {
+    padding-left: 30px;
+}
